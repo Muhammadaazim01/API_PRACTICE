@@ -36,7 +36,7 @@ class _HometwoState extends State<Hometwo> {
               itemCount: snapshot.data!.length,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text(snapshot.data![index].name!),
+                  title: Text(snapshot.data![index].name ?? "no name"),
                   subtitle:
                       Text(snapshot.data![index].address?.zipcode ?? "no data"),
                 );
