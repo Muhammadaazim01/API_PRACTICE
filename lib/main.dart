@@ -1,4 +1,4 @@
-import 'package:api/Screens/sample.dart';
+import 'package:api/Screens/Four_Screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Sample_User(),
+      home: Four_Screen(),
     );
   }
 }
